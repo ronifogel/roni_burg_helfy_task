@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import "../styels/TaskItem.css";
 
 function TaskItem ({task, handleEditClick, handleDeleteClick,handleToggleComplete }) {
-
 
     
     return (
@@ -43,7 +42,7 @@ function TaskItem ({task, handleEditClick, handleDeleteClick,handleToggleComplet
             <button onClick={() => handleEditClick(task)}>Edit</button>
             <button
                 onClick={() => handleDeleteClick(task)}
-                style={{ marginLeft: "10px", color: "red" }}
+                style={{ marginLeft: "10px", color: "white", background: "#e74c3c" }}
             >
                 Delete
             </button>

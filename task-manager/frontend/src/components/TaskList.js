@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import TaskForm from "./TaskForm";
 import TaskItem from "./TaskItem";
 import TaskFilter from "./TaskFilter";
-
+import "../styels/TaskList.css";
 function TaskList() {
     const [TaskList, setTaskList] = useState([]);
     const [loading, setLoading] = useState(true);
