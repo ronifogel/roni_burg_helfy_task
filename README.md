@@ -3,7 +3,7 @@
 1. clone roni_burg_helfy_task
 2. cd task-manager
 ## Backend SetUp
-1.cd backend
+1. cd backend
 2. npm install
 3. npm start (runs on port 4000)
 ## Frontend SetUp
