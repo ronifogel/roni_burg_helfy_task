@@ -19,3 +19,8 @@
 - PUT /api/tasks/:id
 - DELETE /api/tasks/:id
 - PATCH /api/tasks/:id/toggle
+#### workflow
+- backend 90 minutes
+- frontend functionallty 120 minutes
+- styling 20 minutes
+- git setup and readme file 10 minutes
